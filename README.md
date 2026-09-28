@@ -127,10 +127,6 @@ Contains configuration used for the ByteTrack-based tracking workflow.
 Support testing and debugging of the project's alert-related functionality.
 ```
 
-
-## 11. My Contribution
-
-markdown
 ## 👨‍💻 My Contribution
 
 I contributed to the development of the **Co-Exist AI Autonomous Wildlife Monitoring System**, focusing on the AI and computer vision components of the project.
