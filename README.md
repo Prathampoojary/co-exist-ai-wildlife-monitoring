@@ -1,8 +1,8 @@
 # 🐾 Co-Exist AI — Autonomous Wildlife Monitoring System
 
-An AI-powered wildlife monitoring system designed to support **real-time animal detection, tracking, and monitoring** using computer vision and deep learning.
+An AI-powered wildlife monitoring system designed for **animal detection, tracking, and automated monitoring** using computer vision and deep learning.
 
-The system aims to reduce the need for continuous manual monitoring by using AI-based vision models to detect and track wildlife from camera/video streams.
+The project explores how AI and computer vision can be used to automate wildlife observation from camera and video streams.
 
 ---
 
@@ -10,38 +10,28 @@ The system aims to reduce the need for continuous manual monitoring by using AI-
 
 Wildlife monitoring often requires continuous observation of large areas, making manual monitoring time-consuming and difficult to scale.
 
-**Co-Exist AI** explores an automated approach using computer vision to:
+**Co-Exist AI** provides an AI-based approach for detecting and tracking wildlife using computer vision and deep learning techniques.
 
-- 🐾 Detect animals from video or camera input
-- 🎯 Track detected animals across frames
-- 🤖 Use deep learning models for wildlife detection
-- 📊 Compare and benchmark different models
-- 🚨 Support automated monitoring and alert-related workflows
-- 🔧 Train and evaluate custom detection models
+The system combines:
 
-The project combines **computer vision, object detection, object tracking, and Python-based application development** into an autonomous wildlife monitoring workflow.
+- 🐾 Animal detection
+- 🎯 Object tracking
+- 🤖 AI-based computer vision
+- 📊 Model benchmarking
+- 🔧 Custom model training
+- 🚨 Alert and monitoring workflows
 
 ---
 
 ## 🚀 Key Features
 
-### 🐾 Wildlife Detection
-Uses AI-based computer vision models to identify animals from visual input.
-
-### 🎯 Object Tracking
-Tracks detected objects across video frames using a configurable tracking approach.
-
-### 🤖 Custom Model Support
-Includes functionality for training and working with custom detection models.
-
-### 📊 Model Benchmarking
-Provides scripts for comparing and evaluating different models.
-
-### 🚨 Alert & Monitoring Support
-Includes alert-related functionality for automated monitoring workflows.
-
-### 🖥️ Application Interface
-The project includes a Python application interface for running the monitoring system.
+- 🐾 AI-based wildlife detection
+- 🎯 Real-time object tracking
+- 🤖 Custom object detection model support
+- 📊 Model benchmarking and evaluation
+- 🚨 Alert and monitoring functionality
+- 🖥️ Python-based application
+- 🔬 Model training and experimentation
 
 ---
 
@@ -50,8 +40,9 @@ The project includes a Python application interface for running the monitoring s
 ### Programming
 - Python
 
-### Computer Vision & AI
-- YOLO / Object Detection
+### AI & Computer Vision
+- YOLO
+- Object Detection
 - Deep Learning
 - Computer Vision
 - Object Tracking
@@ -59,66 +50,87 @@ The project includes a Python application interface for running the monitoring s
 ### Tracking
 - ByteTrack
 
-### Data & Model Development
-- Custom model training
-- Model benchmarking
-- Model evaluation
+### Model Development
+- Custom Model Training
+- Model Benchmarking
+- Model Evaluation
 
 ### Development Tools
 - Git
 - GitHub
 - Python
 - Virtual Environment
-- Requirements-based dependency management
 
 ---
 
-## 🏗️ Project Structure
+## ⚙️ System Workflow
 
 ```text
+Camera / Video Input
+        ↓
+Frame Processing
+        ↓
+AI Object Detection
+        ↓
+Animal Detection
+        ↓
+Object Tracking
+        ↓
+Monitoring & Analysis
+        ↓
+Alerts / Output
+```
+
 co-exist-ai-wildlife-monitoring/
 │
 ├── app.py
-│
 ├── benchmark_models.py
-│
 ├── custom_bytetrack.yaml
-│
 ├── debug_alerts.py
-│
 ├── train_custom_model.py
-│
 ├── requirements.txt
-│
 ├── sample.py
 ├── sample1.py
 ├── test_email.py
-│
 └── .gitignore
-Camera / Video Input
-        │
-        ▼
-   Frame Processing
-        │
-        ▼
- AI Object Detection
-        │
-        ▼
- Animal Detection
-        │
-        ▼
- Object Tracking
-        │
-        ▼
- Monitoring & Analysis
-        │
-        ▼
- Alerts / Output
 
 
+## 7. Model Development
+
+```markdown
+## 🔬 Model Development
+
+The project includes dedicated scripts for AI model development, experimentation, and testing.
+
+### Model Benchmarking
+
+`benchmark_models.py`
+
+Used for experimenting with and comparing different detection models.
+
+### Custom Model Training
+
+`train_custom_model.py`
+
+Used for training and working with custom object detection models.
+
+### Object Tracking
+
+`custom_bytetrack.yaml`
+
+Contains configuration used for the ByteTrack-based tracking workflow.
+
+### Alert Testing
+
+`debug_alerts.py` and `test_email.py`
+
+Support testing and debugging of the project's alert-related functionality.
+```
 
 
+## 11. My Contribution
 
+markdown
 ## 👨‍💻 My Contribution
 
 I contributed to the development of the **Co-Exist AI Autonomous Wildlife Monitoring System**, focusing on the AI and computer vision components of the project.
@@ -133,10 +145,7 @@ My contributions included:
 - Testing, debugging, and improving the computer vision pipeline
 - Contributing to the development and integration of the overall system
 
-Through this project, I gained hands-on experience in **Python, Computer Vision, Deep Learning, Object Detection, Object Tracking, and real-time AI applications**.
-
-
-
+Through this project, I gained practical experience in **Python, Computer Vision, Deep Learning, Object Detection, Object Tracking, Model Training, and real-time AI applications**.
 
 ## 👥 Project Contributors
 
@@ -146,3 +155,44 @@ This project was developed collaboratively by:
 - **Sahana NS**
 - **Karunakar Reddy**
 - **Likhith Verma**
+
+## 🎯 Potential Applications
+
+The system can be explored for applications such as:
+
+- Wildlife monitoring
+- Animal detection
+- Forest surveillance
+- Camera-based ecological observation
+- Automated wildlife observation
+- Research and conservation support
+
+  ## 🔮 Future Improvements
+
+- Real-time deployment on edge devices
+- Improved wildlife classification
+- Larger and more diverse wildlife datasets
+- Advanced object tracking
+- Real-time notification systems
+- Cloud-based monitoring dashboard
+- Remote camera integration
+- Model optimization for low-power devices
+
+## 📌 Project Status
+
+**Portfolio / Academic Project**
+
+This project demonstrates practical experience in **Artificial Intelligence, Computer Vision, Object Detection, Object Tracking, Model Training, and Python development**.
+
+## 🤝 Collaboration
+
+This project was developed collaboratively by a team of four contributors.
+
+The repository on this profile is maintained as part of my technical portfolio while preserving the project's collaborative nature and original repository attribution.
+
+## 📬 Connect With Me
+
+**Pratham C**
+
+- **GitHub:** https://github.com/Prathampoojary
+- **LinkedIn:**www.linkedin.com/in/pratham-poojary-04318226b
